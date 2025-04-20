@@ -27,7 +27,7 @@ class Tarta:
 class App:
     def __init__(self):
         pyxel.init(330, 210, 'Volontari cercarsi', fps=60)
-        pyxel.load('C:/Users/emanu/Desktop/Coding/tarta/assets/res.pyxres')
+        pyxel.load('/assets/res.pyxres')
         self.concorrenti = []
         self.tarta_arrivo = []  
         for i in range(num):
